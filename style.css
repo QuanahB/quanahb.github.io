@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaijaan");
+
+#homePage{
+    color: white;
+    font-size: 94px;
+    text-align: center;
+    padding-top: 20px;
+    background-image: url(neoheader.jpg);
+    margin-top: -1px;
+    margin-bottom: 0;
+    padding: 200px;
+    height: 450px;
+    background-repeat: no-repeat;
+    font-family: Baloo Bhaijaan;
+}
+ul.topOfPage{
+    padding-right: 10px;
+}
+li.nav{
+    color: white;
+    font-family: Baloo Bhaijaan;
+    font-size: 20px;
+    display: inline;
+    float:right;
+    padding: 3px;
+}
+a{
+    color: white;
+}
+button{
+    padding-left: 5px;
+}
+div.header{
+    background-color: rgba(33,160,180,0.9);
+    margin: 0;
+    padding: 40px;
+    padding-bottom: 1px;
+    
+}
+td.songtitle{
+    width: 375px;
+}
+td.songtitle:hover{
+    background-color: aliceblue;
+}
+td.image{
+    width: 100px;
+}
+td.length{
+    width: 90px;
+}
+td{
+    padding: 20px;
+}
+h1.aboveImage{
+    text-align: center;
+}
+.aboutPicture{
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: 600px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+select.selectors{
+    
+}
+.topOfBeatPage{
+    background-image: url(backgrouund.jpg);
+    padding: 15px;
+}
+.beatPage{
+    
+}
+#beatsHead{
+    color: coral;
+}
+input{
+    width: 800px;
+}
+.fresh:hover{
+    opacity: 1.0;
+}
+.fresh{
+    opacity: 0.7;
+    
+}
+
+#cold{
+    
+    height: 450;
+    width: 450;
+}
+
+.trans{
+    
+    position: relative;
+    overflow: hidden;
+    
+}
+.trans video{
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+}
+
+.trans img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.inter img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.playlistBackground{
+    background-color: rgba(33,182,180,0.2);
+    
+}
+.viddeofooter{
+    
+    background-image: url(IMG_2889.JPG);
+    
+}
+
+#midImg{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 500px;
+}
+.projectButton{
+    width: 200px;
+    height: 80px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.contactButton{
+    background-color: rgba(33,182,180,0.8);
+}
+#mattSite{
+    background-color: rgba(33,182,180,0.9);
+}
+#brentwoodSite{
+    background-color: rgba(3,90,180,0.8);
+}
+#githubSite{
+    background-color: green;
+}
+.projectContact{
+    margin-top: 0;
+}
+.styledHead{
+    font-family: Baloo Bhaijaan;
+}
+
+/*
+Project Page CSS
+*/
+#Brentwood{
+    background-color: cornflowerblue;
+}
+#MattK{
+    background-color: aquamarine;
+}
+#GitHub{
+    background-color: greenyellow;
+    margin-bottom: 0;
+}
+.description{
+    font-weight: bold;
+}
