@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel = "stylesheet" href= "style.css">
+    <link rel="stylesheet" href="ContactStyle.css">
     <script src="interactions.js"></script>
     <script src="jquery-3.2.1.min.js"></script>
     <script src="mustache.js"></script>
@@ -11,9 +12,8 @@
     <div class="header">
         <header>Quanah Bennett</header>
     <ul class="topOfPage">
-        <li class="nav"><a href="Videos.html">Videos</a></li>
-        <li class="nav"><a href="Beats.html">Beats</a></li>
-        <li class="nav"><a href="About.html">About</a></li>
+        <li class="nav"><a href="Beats.html">Contact</a></li>
+        <li class="nav"><a href="About.html">Projects</a></li>
         <li class="nav"><a href="index.html">Home</a></li>
         
         <button class="nav">Cart</button>
@@ -23,14 +23,28 @@
     </div>
     <br>
     <br>
-    <form action="https://formspree.io/quanahb@yahoo.com"
-          method="POST">
-            <input type="text" name="name" placeholder="Name">
-            <input type="email" name="_replyto" placeholder=" Your Email">
-            <br>
-            <textarea name="Text"></textarea>
-            <input type="submit" value="Send">
-        </form>
+    
+    <div class="container">  
+  <form id="contact" action="https://formspree.io/quanahb@yahoo.com" method="POST">
+    <h3>Shoot Me A Message</h3>
+    <h4>I'll Respond as Quickly as Possible</h4>
+    <fieldset>
+      <input name="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input name="_replyto" placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input name="Phone Number" placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea name="Message" placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" value="Send" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
     
 </body>
 </html>
