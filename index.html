@@ -1,80 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-    <meta charset ="utf-8">
-    <link rel = "stylesheet" href= "style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="interactions.js"></script>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    
-    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="ODFjNDFkMWQtZTM0ZS00YTRkLTgxMDQtY2Y5YWNkZGEwMTE2NjM2ODk3NDkzODI0ODUyOTIz"></script>
-
-    <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-    
-    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="app.js"></script>
 </head>
 <body>
     
+    <header>
+        <img class="logo" src="logo1.svg" alt="logo">
+        <ul class="navBar">
+            <li class="navElement"><a href="#about">About</a></li>
+            <li class="navElement"><a href="#Brentwood">Projects</a></li>
+            <li class="navElement"><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </header>
+
     <div class="header">
-        <header>Quanah Bennett</header>
-    <ul class="topOfPage">
-        <li class="nav"><a href="Beats.html">Contact</a></li>
-        <li class="nav"><a href="About.html">Projects</a></li>
-        <li class="nav"><a href="index.html">Home</a></li>
-        
-        <button class="nav">Cart</button>
-        <button class="nav">Log in</button>
-    </ul>
-        
-    </div>
-    <h1 id="homePage">Quanah Bennett</h1>
-    <div class="animated-div">
-        <h1 style="text-align:center" data-aos='fade-right' class="styledHead">What Do You Need?</h1>
-        <br>
-        <h2 style="text-align:center" class="styledHead">On The Developer Side</h2>
-        <p data-aos='fade-up' style="text-align:center" style="font-size:130%;">I am a young developer who will build your website or blog with an assortment of languages and libraries. No matter what you need, ranging<br> from updates to an already existing site, all the way to building you a custom website from scratch</p>
-        <br>
-        <img id="midImg" src="Q%20U%20A.JPG" height="200" width="300">
-        <br>
-        <h2 style="text-align:center" class="styledHead">On The Artistic Side</h2>
-        <p data-aos='fade-up' style="text-align:center" style="font-size:130%;">I am willing to do logo designs for your brand and business. I will keep it simple, clean and elegant using a mix of technologies such as Adobe<br>Illustrator and Adobe Photoshop in order to create a beautiful logo that you'll be eager to show to literally everyone</p>
-    </div>
-    <div class="playlistBackground">
-        <h2 style="text-align:center" class="styledHead">Shoot Me A Message!</h2>
-        <h3 style="text-align:center" class="styledHead">I am available for freelance work</h3>
-        <p style="text-align:center">All you have to do is hit the button below and shoot me a message. Im eager to help you bring your visions to life and providing the <br> best service that I possibly can. Cant wait to hear from you </p>
-        <div style="text-align:center">
-            <input type="button" value="Message Me" class="projectButton contactButton" id="projectButton">
+        <div class="header-child Text">
+            <h1 style="color: white;">
+                A collection of projects and websites I've worked on
+                that show my skills as a <span></span>
+            </h1>
+            <h4 style="color: white;">
+                Capable of performing a wide array of tasks for web development
+                and applications programmming 
+            </h4>
+        </div>
+        <div class="header-child Animation" style="background-color: rgba(33,160,180,0.9);">
+            <svg width="300px" height="300px" viewBox="-20 0 557 190" id="svg">
+                <!-- Paths for letters to follow -->
+                <path id="path1" class="path" d="M 88 -112 L 160 -227 L 247 -48 C 194 -136.3333 437 -228 88 -313"/>
+                <path id='path2' class="path" d="M 168 -95 C 250 13 347 -96 367 -142 C 425 -181 483 -131 503 -93"/>
+                <path id='path3' class="path" d="M 205 -42 C 164.6667 -69.3333 38 -23 71 -132 C 87 -160.3333 273 -308 56 -283 C 11 -141 311 -276 281 -148"/>
+                <path id='path4' class="path" d="M 67 -87 L 316 -13 L 319 -255 L 148 100"/>
+                <path id='path5' class="path" d="M 244 -241 L 79 -193 L 353 -48 L 396 -147 L 67 -12"/>
+                <path id='path6' class="path" d="M 200 -117 L 551 -119 L 364 -315 L 368 19 L 235 -280 L 586 -273"/>
+                <path id='path7' class="path" d="M 103 -153 C 227 -306 209 -101 262 -75 C 329 -17 333 -402 415 -162"/>
+                <path id='path8' class="path" d="M 141 -407 L 293 -238 C 224 -221.6667 124 -53 86 -189 L 427 -371"/>
+                <path id='path9' class="path" d="M 377 -365 A 1 1 0 0 0 171 -133 A 1 1 0 0 0 377 -365"/>
+                <path id='path10' class="path" d="M 205 -393 L 247 -85 L 287 -311 L 328 -109 L 342 -383"/>
+                <!--Letters-->
+                <path d="m 11.370433,200.95469 q 0,-11.94778 2.494238,-21.13838 2.598163,-9.1906 6.963079,-15.31766 4.468842,-6.28024 10.392657,-9.49695 6.02774,-3.21671 12.99082,-3.21671 6.96308,0 12.886895,3.21671 6.02774,3.21671 10.496582,9.49695 4.468843,6.12706 6.96308,15.31766 2.598168,9.1906 2.598168,21.13838 0,15.01131 -3.74136,25.5805 -3.741356,10.416 -10.184804,16.38989 1.558899,1.07224 3.63743,2.29766 2.182458,1.22541 4.468843,2.45081 2.390311,1.22542 4.884551,2.29766 2.494234,1.22542 4.676691,2.14447 0.103926,0.91906 0.103926,1.53176 0,0.76589 0,1.3786 0,8.73107 -3.117797,12.71365 -3.013868,3.9826 -8.002343,3.9826 -4.780622,0 -9.873024,-3.9826 -5.092401,-3.82941 -10.392656,-11.18189 l -4.572769,-6.28024 h -0.831413 q -7.067006,0 -13.094747,-3.21671 -6.027741,-3.36988 -10.392657,-9.65012 -4.364915,-6.28024 -6.859152,-15.47084 -2.494238,-9.1906 -2.494238,-20.9852 z m 18.706781,0 q 0,13.93907 3.845283,20.83201 3.845283,6.89296 10.28873,6.89296 6.547374,0 10.392657,-6.89296 3.845282,-6.89294 3.845282,-20.83201 0,-13.7859 -3.845282,-20.67885 -3.741356,-6.89294 -10.28873,-6.89294 -6.443447,0 -10.392657,6.89294 -3.845283,6.73978 -3.845283,20.67885 z" id="Q" style="font-size:126.171px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';stroke-width:3.15427;fill:#e6e6e6" />
+                <path d="m 86.41353,174.14877 q 1.039266,-0.45952 3.221723,-0.91905 2.286391,-0.45953 4.676697,-0.45953 2.28639,0 4.05314,0.45953 1.87068,0.45953 3.1178,1.83812 1.24711,1.37859 1.87068,3.82942 0.72748,2.29764 0.72748,6.12706 v 32.93297 q 0,6.28024 2.07853,9.03743 2.07853,2.604 6.02774,2.604 2.39031,0 3.84529,-0.61271 1.55889,-0.6127 2.3903,-1.22542 v -53.61182 q 1.03927,-0.45952 3.22173,-0.91905 2.28638,-0.45953 4.6767,-0.45953 2.28638,0 4.05313,0.45953 1.87068,0.45953 3.11779,1.83812 1.24713,1.37859 1.87068,3.82942 0.72749,2.29764 0.72749,6.12706 v 46.56569 q 0,7.65884 -4.36491,11.48825 -3.63744,3.36989 -8.72984,5.05483 -4.98847,1.83812 -10.91229,1.83812 -5.61203,0 -10.39265,-1.83812 -4.6767,-1.83813 -8.10628,-5.66754 -3.42957,-3.82942 -5.30025,-9.8033 -1.87068,-6.12706 -1.87068,-14.70496 z" id="U" style="font-size:126.171px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';stroke-width:3.15427;fill:#ff7f2a" />
+                <path d="m 168.51876,230.9773 q 1.76676,0 3.84529,-0.45953 2.18246,-0.6127 3.22172,-1.53176 v -12.25413 l -7.48271,0.91906 q -2.90994,0.30635 -4.78062,1.83812 -1.87068,1.53177 -1.87068,4.5953 0,3.06353 1.5589,5.05482 1.66283,1.83812 5.5081,1.83812 z m -0.8314,-60.19841 q 5.61203,0 10.18479,1.68494 4.6767,1.68494 7.89843,5.20801 3.32565,3.36989 5.0924,8.73106 1.76675,5.20802 1.76675,12.40731 v 34.31157 q 0,3.98259 -1.5589,6.58659 -1.45497,2.45083 -3.5335,4.28895 -6.75523,5.97389 -19.01857,5.97389 -5.5081,0 -9.97694,-1.53177 -4.36492,-1.53176 -7.58665,-4.59529 -3.11779,-3.06354 -4.88454,-7.81201 -1.66283,-4.74848 -1.66283,-11.02872 0,-10.56919 4.26099,-16.23672 4.26099,-5.66754 13.19868,-7.04613 l 13.61438,-2.14447 v -1.07224 q 0,-4.44213 -2.7021,-6.28024 -2.59816,-1.99129 -7.58663,-1.99129 -3.94922,0 -7.69057,1.22541 -3.74136,1.2254 -6.75523,3.06353 -1.35104,-1.37859 -2.28638,-4.13577 -0.93534,-2.91036 -0.93534,-5.97389 0,-3.98258 1.24712,-6.28024 1.35105,-2.45083 4.05313,-4.13577 3.01387,-1.68494 7.06701,-2.45082 4.15706,-0.76589 7.7945,-0.76589 z" id="A" style="font-size:126.171px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';stroke-width:3.15427;fill:#ff9955" />
+                <path d="m 55.16156,67.132933 q 0,-4.879462 -2.516564,-7.083097 -2.376755,-2.361033 -6.571029,-2.361033 -2.796183,0 -5.592366,0.787011 -2.656374,0.787011 -4.613701,2.361033 v 54.618533 q -1.398092,0.4722 -4.473892,0.9444 -2.935992,0.47222 -6.151601,0.47222 -3.075802,0 -5.592366,-0.47222 -2.376756,-0.4722 -4.054464,-1.88881 -1.677709,-1.41663 -2.656373,-3.77766 -0.838855,-2.51843 -0.838855,-6.4535 V 57.059202 q 0,-4.249861 1.537901,-6.9257 1.677708,-2.675827 4.47389,-4.879461 4.753511,-3.777651 11.883776,-6.138682 7.270076,-2.361031 16.078051,-2.361031 15.798432,0 24.326789,7.870104 8.528357,7.712705 8.528357,21.56408 v 49.266868 q -1.398092,0.4722 -4.473892,0.9444 -2.935993,0.47222 -6.151601,0.47222 -3.075802,0 -5.592366,-0.47222 -2.376756,-0.4722 -4.054465,-1.88881 -1.677709,-1.41663 -2.656374,-3.77766 -0.838855,-2.51843 -0.838855,-6.4535 z" id="N" style="font-size:110.082px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';fill:#ffffff;stroke-width:3.70861" />
+                <path d="m 105.23223,233.4348 q 2.78028,0 6.05119,-0.55671 3.43446,-0.7423 5.06993,-1.85574 v -14.8459 l -11.77531,1.11345 q -4.579273,0.37114 -7.523104,2.22687 -2.943823,1.85574 -2.943823,5.56721 0,3.71148 2.453195,6.12394 2.616721,2.22688 8.667922,2.22688 z m -1.30837,-72.93047 q 8.83148,0 16.02748,2.0413 7.35956,2.04133 12.42949,6.30953 5.23347,4.0826 8.01375,10.57769 2.78027,6.3095 2.78027,15.03147 v 41.56851 q 0,4.82491 -2.45319,7.97969 -2.28965,2.96917 -5.56055,5.19605 -10.63048,7.23738 -29.92888,7.23738 -8.667922,0 -15.700398,-1.85574 -6.868922,-1.85573 -11.938837,-5.56722 -4.906383,-3.71147 -7.686654,-9.46425 -2.616734,-5.75278 -2.616734,-13.36132 0,-12.80456 6.705377,-19.67081 6.70537,-6.86622 20.770314,-8.5364 l 21.424502,-2.59802 v -1.29903 q 0,-5.38163 -4.2522,-7.60851 -4.08865,-2.41246 -11.938833,-2.41246 -6.214738,0 -12.10239,1.48459 -5.887652,1.48458 -10.630483,3.71148 -2.126091,-1.67017 -3.597996,-5.0105 -1.471917,-3.52589 -1.471917,-7.23737 0,-4.82492 1.962553,-7.60852 2.126089,-2.96919 6.378287,-5.0105 4.742831,-2.0413 11.121101,-2.96917 6.541841,-0.92787 12.265938,-0.92787 z" id="A2" style="font-size:110.082px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';fill:#ffccaa;stroke-width:4.35528" />
+                <path d="m 194.24632,104.57652 q -1.20249,0.43182 -3.84795,0.86365 -2.52523,0.43183 -5.29094,0.43183 -2.64547,0 -4.80993,-0.43183 -2.04423,-0.43183 -3.48721,-1.72729 -1.44297,-1.29548 -2.28472,-3.4546 -0.72149,-2.303053 -0.72149,-5.901597 V 62.401731 q 0,-5.901589 -2.52522,-8.204645 -2.40496,-2.447005 -6.01242,-2.447005 -2.40497,0 -4.56944,0.719706 -2.16447,0.719707 -3.48721,1.727299 v 50.379434 q -1.20249,0.43182 -3.84795,0.86365 -2.52522,0.43183 -5.29094,0.43183 -2.64546,0 -4.80993,-0.43183 -2.04422,-0.43183 -3.48721,-1.72729 -1.44297,-1.29548 -2.28471,-3.4546 -0.7215,-2.303053 -0.7215,-5.901597 V 10.870768 q 1.32273,-0.287883 3.84795,-0.719706 2.64547,-0.575765 5.29094,-0.575765 2.64546,0 4.68968,0.431824 2.16448,0.431823 3.60746,1.727295 1.44298,1.29547 2.16447,3.598531 0.84174,2.159119 0.84174,5.75765 V 35.19684 q 1.56323,-0.719707 4.68969,-1.583355 3.24672,-1.007588 7.09466,-1.007588 11.9046,0 18.51827,7.197063 6.73391,7.053123 6.73391,21.159358 z" id="H" style="font-size:110.082px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';fill:#ffffff;stroke-width:3.28905" />
+                <path d="m 13.771483,24.073039 q 1.304132,-0.502991 4.173222,-1.00598 2.86909,-0.670654 5.868593,-0.670654 2.869088,0 5.086112,0.502991 2.347437,0.502989 3.912395,2.01196 1.564958,1.50897 2.347437,4.191583 0.782478,2.51495 0.782478,6.706534 v 16.431008 q 3.260329,-1.676633 6.129419,-2.347287 2.999503,-0.670652 6.520659,-0.670652 6.259832,0 11.867598,2.850276 5.607766,2.850275 9.911399,8.383166 4.303635,5.365228 6.781484,13.413068 2.477851,8.047841 2.477851,18.610633 0,10.898115 -2.608263,19.113625 -2.477851,8.04783 -7.042311,13.41306 -4.56446,5.36523 -11.215531,8.21551 -6.520659,2.6826 -14.475862,2.6826 -8.607268,0 -14.606275,-2.6826 -5.999004,-2.51495 -10.172226,-6.37121 -5.738179,-5.19756 -5.738179,-13.41306 z m 30.51668,89.364571 q 5.999006,0 9.259335,-5.19756 3.390742,-5.36524 3.390742,-15.760365 0,-10.562792 -3.390742,-15.760356 -3.390743,-5.197564 -9.128922,-5.197564 -2.608263,0 -4.564461,0.670653 -1.825783,0.670654 -4.042808,2.011961 v 36.550601 q 1.434545,1.17365 3.390742,2.01198 2.086612,0.67065 5.086114,0.67065 z" id="B" style="font-size:115.547px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';fill:#ffccaa;stroke-width:3.69677" />
+                <path d="m 24.265914,223.28892 q 0,-7.86041 4.241999,-13.1007 4.241999,-5.24027 11.583925,-5.24027 7.341914,0 11.583916,5.24027 4.241996,5.24029 4.241996,13.1007 0,7.86043 -4.241996,13.10069 -4.242002,5.2403 -11.583916,5.2403 -7.341926,0 -11.583925,-5.2403 -4.241999,-5.24026 -4.241999,-13.10069 z" id="Period" style="font-size:115.547px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';fill:#ececec;stroke-width:4.36857" />
+                <path d="m 131.59938,28.103882 q 0,-5.754206 4.43553,-9.691295 4.61293,-3.937089 12.06458,-3.937089 7.45167,0 11.88718,3.937089 4.61293,3.937089 4.61293,9.691295 0,5.754207 -4.61293,9.691295 -4.43551,3.937089 -11.88718,3.937089 -7.45165,0 -12.06458,-3.937089 -4.43553,-3.937088 -4.43553,-9.691295 z m 31.58086,93.884408 q -1.95163,0.30287 -5.85487,0.75714 -3.72584,0.60572 -7.62909,0.60572 -3.90326,0 -7.09682,-0.45429 -3.01615,-0.45427 -5.14521,-1.81712 -2.12904,-1.36283 -3.37098,-3.63424 -1.06451,-2.42282 -1.06451,-6.20848 V 49.606444 q 1.95162,-0.302853 5.67744,-0.757133 3.90326,-0.605705 7.80651,-0.605705 3.90325,0 6.91939,0.454279 3.19359,0.454279 5.32263,1.817118 2.12904,1.362837 3.19357,3.78566 1.24194,2.271397 1.24194,6.05706 z" id="I" style="font-size:115.547px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';fill:#ff7f2a;stroke-width:4.09775" />
+                <path d="m 194.61078,196.88502 q 0,12.26102 -3.03968,21.95121 -3.03969,9.4924 -8.63911,16.01844 -5.43943,6.52605 -13.11862,9.88791 -7.67921,3.3619 -17.11822,3.3619 -9.43903,0 -17.1182,-3.55965 -7.67921,-3.55965 -13.27862,-10.08567 -5.43944,-6.7238 -8.47911,-16.21621 -3.0397,-9.49241 -3.0397,-21.35793 0,-11.66775 3.0397,-21.16016 3.03967,-9.49241 8.47911,-16.01845 5.59941,-6.7238 13.27862,-10.28344 7.67917,-3.55966 17.1182,-3.55966 9.43901,0 17.11822,3.7574 7.67919,3.55966 13.11862,10.28347 5.59942,6.52603 8.63911,16.01844 3.03968,9.4924 3.03968,20.9624 z m -55.99415,0 q 0,12.06328 3.6796,18.58932 3.83961,6.32825 10.55889,6.32825 6.71932,0 10.23895,-6.52603 3.6796,-6.52602 3.6796,-18.39154 0,-11.86551 -3.6796,-18.19379 -3.67962,-6.52603 -10.39892,-6.52603 -6.7193,0 -10.39892,6.52603 -3.6796,6.32828 -3.6796,18.19379 z" id="O" style="font-size:115.547px;line-height:1.25;font-family:'Baloo Bhaijaan';-inkscape-font-specification:'Baloo Bhaijaan';fill:#ffffff;stroke-width:4.44679" />
+            </svg>
+            <!-- <div id='rec'></div> -->
         </div>
     </div>
-    
-    <button
-    class="snipcart-add-item"
-    data-item-id="2"
-    data-item-name="Bacon"
-    data-item-price="3.00"
-    data-item-weight="20"
-    data-item-url="http://quanahb.github.io/#!/"
-    data-item-description="Some fresh bacon"
-    data-item-file-guid=3685bc7f-26f6-4f64-93c2-f9b708389cfa>
-        Buy bacon
-</button>
-    
-    <footer>
-    </footer>
-    
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1200,
-        });
-    </script>
-    <script>
-        document.getElementById('projectButton').onclick = function(){
-          location.href = 'Beats.html';  
-        };
-    </script>
-    
+
+
+    <div id="about" style="">
+        <img data-aos="" src="Q U A.JPG" alt="Italian Trulli" class="image" id="image1">
+        <br>
+        <h4 data-aos="fade-up" style="color: white;" class="about-text">
+            I am a young developer who will build your website or blog with an assortment of languages and libraries. No matter what you need, ranging
+            from updates to an already existing site, all the way to building you a custom website from scratch.
+        </h4>
+    </div>
+
+    <div id="Brentwood">
+        <a href="https://rotaryclubbrentwood.org/"><img data-aos="fade-right" id="image2" class="image" src="Brentwood.png"></a>
+        <br>
+        <h4 data-aos="fade-up-left" style="color: white;" class="brentwood-text">
+            I was commissioned by the active president of the Brentwood Rotary Club to make updates to
+            the site since its last update was around 2013. Made adjustments to widgets, dates and the layout
+            across the site and added images for promotion of events for the club.
+        </h4>
+    </div>
+
+    <div id="Anais">
+        <a href="https://anaisparmakian.com/"><img data-aos="fade-left" id="image3" class="image" src="Anais.gif"></a>
+        <br>
+        <h4 data-aos="fade-up-right" style="color: white;" class="anais-text">
+            Portfolio website made with wordpress to host clients videos and pictures from various events
+            and international trips to display a wide array of experiences to friends, family and
+            prospective employers.
+        </h4>
+    </div>
+
+    <div id="FakePokemon">
+        <a href="FakePokemon.zip"><img data-aos="fade-right" id="image4" class="image" src="gameImage.svg" style="background-color: ivory;"></a>
+        <br>
+        <h4 data-aos="fade-up-left" style="color: white;" class="game-text">
+            My attempt at building a virtual card game similiar to Pokemon. Still needs work done on the
+            GUI and math operations during interactions but still playable. Just read the Read Me file and 
+            see how you like it. 
+        </h4>
+    </div>
+
+    <div id="Github">
+        <a href="https://github.com/QuanahB"><img data-aos="fade-left" id="image5" class="image" src="Octocat.jpg"></a>
+        <br>
+        <h4 data-aos="fade-up-right" style="color: white;" class="git-text">
+            A collection of miscellaneous programing projects ive done across the years in languages ranging
+            from html and css to Java and C.
+        </h4>
+    </div>
+
+    <div>
+        <form data-aos="fade-up" id="contact" action="https://formspree.io/f/mbjqwnjd" method="POST">
+            <label style="background-color: white; font-family: Baloo Bhaijaan;">
+                Your email:
+                <input type="email" name="_replyto">
+            </label>
+            <label style="background-color: white; font-family: Baloo Bhaijaan;">
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+        
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/MotionPathPlugin.min.js" integrity="sha512-TCWIV57O10riZ8jjGxGdx7BNNGydl57F4y8+EIK8szMou/flyNCRogOhFIMEDmD7NuAsfWoraH2VNAwHq7aFrA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js" integrity="sha512-yVNhaX0I/lk5GtKya9lE27DopFWV791zsCnMpztLnGJgWESdN825wbH0/I1HfwdNgAKFsq9pXv5vpXjTAU7h3A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1200,
+    });
+</script>
+<script>
+    /* Header Animations */
+    gsap.to('#A2',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path2',align: '#path2'}});
+    gsap.to('#N',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path1',align: '#path1'}});
+    gsap.to('#H',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path3',align: '#path3'}});
+    gsap.to('#A',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path4',align: '#path4'}});
+    gsap.to('#Q',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path5',align: '#path5'}});
+    gsap.to('#U',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path6',align: '#path6'}});
+    gsap.to('#B',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path7',align: '#path7'}});
+    gsap.to('#Period',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path8',align: '#path8'}});
+    gsap.to('#I',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path9',align: '#path9'}});
+    gsap.to('#O',{delay: 0,duration: 6,yoyo: true,repeat: -1, motionPath:{path: '#path10',align: '#path10'}});
+
+    /* Header Text Animation */
+    gsap.to('h1 span', {duration: 1, text: "developer",repeat: -1, repeatDelay: 1, yoyo: true});
+
+</script>
 </html>
