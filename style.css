@@ -290,3 +290,52 @@ fieldset {
   color: #888;
 }
 
+/* For Screen Size Changes */
+@media all and (max-width:400px) {
+  #image3{
+    height: 200px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid #FA8128;
+}
+
+#image5{
+  height: 200px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 7px solid #FA8128;
+}
+
+#image1{
+  height: 200px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 7px solid #FA8128;
+}
+
+#image2{
+  height: 200px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 7px solid #FA8128;
+}
+
+#image4{
+  height: 200px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 7px solid #FA8128;
+}
+
+}
+
