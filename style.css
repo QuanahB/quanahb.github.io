@@ -291,7 +291,7 @@ fieldset {
 }
 
 /* For Screen Size Changes */
-@media all and (max-width:400px) {
+@media all and (max-width:500px) {
   #image3{
     height: 200px;
     width: 250px;
