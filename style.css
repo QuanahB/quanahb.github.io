@@ -359,7 +359,8 @@ fieldset {
 
 .Animation{ /* belongs in animation section */
   flex: 1;
-  padding-top: 250px;
+  padding-top: 200px;
+  margin: 20%;
 }
 
 h1{

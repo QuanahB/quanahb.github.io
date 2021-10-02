@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js"></script>
 </head>
 <body>
     
@@ -37,7 +36,7 @@
                 <path id='path3' class="path" d="M 373 -88 Q 394 152 262 124 C 220 -128 396 100.6667 463 89"/>
                 <path id='path4' class="path" d="M 150 -314 L 254 -95 L 350 -314"/>
                 <path id='path5' class="path" d="M 0 -500 H 496"/>
-                <path id='path6' class="path" d="M 125 -407 Q 32 -216 128 -60 C 298 -212.3333 416 -274 -10 -256"/>
+                <path id='path6' class="path" d="M 94 -408 Q 32 -216 128 -60 C 298 -212.3333 416 -274 -10 -256"/>
                 <path id='path7' class="path" d="M 458 9 C 408 105 125 29 295 -46 Q 255 -166 411 -44"/>
                 <path id='path8' class="path" d="M 114 -96 A 1 1 0 0 0 390 63"/>
                 <path id='path9' class="path" d="M 173 -29 L 57 -272 L 239 -135 L 0 -140"/>
@@ -135,16 +134,16 @@
 </script>
 <script>
     /* Header Animations */
-    gsap.to('#A2',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path2',align: '#path2'}});
-    gsap.to('#N',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path1',align: '#path1'}});
-    gsap.to('#H',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path3',align: '#path3'}});
-    gsap.to('#A',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path4',align: '#path4'}});
-    gsap.to('#Q',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path5',align: '#path5'}});
-    gsap.to('#U',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path6',align: '#path6'}});
-    gsap.to('#B',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path7',align: '#path7'}});
-    gsap.to('#Period',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path8',align: '#path8'}});
-    gsap.to('#I',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path9',align: '#path9'}});
-    gsap.to('#O',{delay: 0,duration: 9,yoyo: true,repeat: 5, motionPath:{path: '#path10',align: '#path10'}});
+    gsap.from('#A2',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path2',align: '#path2'}});
+    gsap.from('#N',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path1',align: '#path1'}});
+    gsap.from('#H',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path3',align: '#path3'}});
+    gsap.from('#A',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path4',align: '#path4'}});
+    gsap.from('#Q',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path5',align: '#path5'}});
+    gsap.from('#U',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path6',align: '#path6'}});
+    gsap.from('#B',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path7',align: '#path7'}});
+    gsap.from('#Period',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path8',align: '#path8'}});
+    gsap.from('#I',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path9',align: '#path9'}});
+    gsap.from('#O',{delay: 0,duration: 9,yoyo: true,repeat: -1, motionPath:{path: '#path10',align: '#path10'}});
 
     /* Header Text Animation */
     gsap.to('h1 span', {duration: 1, text: "developer",repeat: -1, repeatDelay: 1, yoyo: true});
