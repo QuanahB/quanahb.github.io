@@ -376,6 +376,12 @@ h4{
   padding-bottom: 250px;
 }
 
+.about-text, .brentwood-text, .anais-text,.game-text,.git-text{
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Width 401 - 592 */
 
 }
