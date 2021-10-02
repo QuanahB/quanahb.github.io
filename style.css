@@ -126,7 +126,8 @@ svg{
 #image2{
     height: 400px;
     width: 450px;
-    margin-left: 120px;
+    margin-left: 5%;
+    margin-right: auto;
     border: 7px solid #FA8128;
 }
 
@@ -139,8 +140,10 @@ svg{
 #image3{
     height: 400px;
     width: 450px;
-    margin-left: 850px;
     border: 7px solid #FA8128;
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;
 }
 
 .anais-text{
@@ -151,7 +154,8 @@ svg{
 #image4{
     height: 400px;
     width: 450px;
-    margin-left: 120px;
+    margin-left: 5%;
+    margin-right: auto;
     border: 7px solid #FA8128;
 }
 
@@ -164,8 +168,10 @@ svg{
 #image5{
     height: 400px;
     width: 450px;
-    margin-left: 850px;
     border: 7px solid #FA8128;
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;
 }
 
 .git-text{
@@ -337,9 +343,39 @@ fieldset {
   border: 7px solid #FA8128;
 }
 
-*{
-  background: red;
+.logo{
+  display: none;
 }
+
+.header{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Text{
+  flex: 1;
+  padding-top: 70px;
+}
+
+.Animation{ /* belongs in animation section */
+  flex: 1;
+  padding-top: 250px;
+}
+
+h1{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 60px;
+  /* padding-top: 40px; */
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+  padding-bottom: 250px;
+}
+
+/* Width 401 - 592 */
 
 }
 
