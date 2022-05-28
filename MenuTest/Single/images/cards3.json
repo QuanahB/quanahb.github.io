@@ -1,0 +1,255 @@
+{
+	"frames": {
+		"stitch0.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch1.png": {
+			"frame": {
+				"x": 82,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch2.png": {
+			"frame": {
+				"x": 163,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch3.png": {
+			"frame": {
+				"x": 244,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch4.png": {
+			"frame": {
+				"x": 1,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch5.png": {
+			"frame": {
+				"x": 82,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch6.png": {
+			"frame": {
+				"x": 163,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch7.png": {
+			"frame": {
+				"x": 244,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch8.png": {
+			"frame": {
+				"x": 325,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch9.png": {
+			"frame": {
+				"x": 325,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch10.png": {
+			"frame": {
+				"x": 1,
+				"y": 245,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stitch11.png": {
+			"frame": {
+				"x": 82,
+				"y": 245,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet3.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 405,
+			"h": 366
+		},
+		"scale": "1"
+	}
+}

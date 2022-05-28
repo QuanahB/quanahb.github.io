@@ -1,0 +1,275 @@
+{
+	"frames": {
+		"stand0.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand1.png": {
+			"frame": {
+				"x": 82,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand2.png": {
+			"frame": {
+				"x": 163,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand3.png": {
+			"frame": {
+				"x": 244,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand4.png": {
+			"frame": {
+				"x": 1,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand5.png": {
+			"frame": {
+				"x": 82,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand6.png": {
+			"frame": {
+				"x": 163,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand7.png": {
+			"frame": {
+				"x": 244,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand8.png": {
+			"frame": {
+				"x": 325,
+				"y": 1,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand9.png": {
+			"frame": {
+				"x": 325,
+				"y": 123,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand10.png": {
+			"frame": {
+				"x": 1,
+				"y": 245,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand11.png": {
+			"frame": {
+				"x": 82,
+				"y": 245,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		},
+		"stand12.png": {
+			"frame": {
+				"x": 163,
+				"y": 245,
+				"w": 79,
+				"h": 120
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 79,
+				"h": 120
+			},
+			"sourceSize": {
+				"w": 79,
+				"h": 120
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "secSelect3.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 405,
+			"h": 366
+		},
+		"scale": "1"
+	}
+}

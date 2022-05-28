@@ -1,0 +1,135 @@
+{
+	"frames": {
+		"slot0.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 16,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 16,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 16,
+				"h": 17
+			}
+		},
+		"slot1.png": {
+			"frame": {
+				"x": 19,
+				"y": 1,
+				"w": 16,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 16,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 16,
+				"h": 17
+			}
+		},
+		"slot2.png": {
+			"frame": {
+				"x": 1,
+				"y": 20,
+				"w": 16,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 16,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 16,
+				"h": 17
+			}
+		},
+		"slot3.png": {
+			"frame": {
+				"x": 19,
+				"y": 20,
+				"w": 16,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 16,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 16,
+				"h": 17
+			}
+		},
+		"slot4.png": {
+			"frame": {
+				"x": 37,
+				"y": 1,
+				"w": 16,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 16,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 16,
+				"h": 17
+			}
+		},
+		"slot5.png": {
+			"frame": {
+				"x": 37,
+				"y": 20,
+				"w": 16,
+				"h": 17
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 16,
+				"h": 17
+			},
+			"sourceSize": {
+				"w": 16,
+				"h": 17
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "secondDie.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 54,
+			"h": 38
+		},
+		"scale": "1"
+	}
+}
